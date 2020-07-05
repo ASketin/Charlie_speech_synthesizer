@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'speech_synthesis.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django',
-        'USER': 'postgres',
-        'PASSWORD': '1883',
+        'NAME': 'charliesynthesizer',
+        'USER': 'name',
+        'PASSWORD': '',
         'HOST': 'localhost',
     }
 }
